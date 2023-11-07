@@ -86,3 +86,58 @@ a{
 .icon-link:hover i {
     color: blue; /* Change this color to the one you prefer */
 }
+@media screen and (max-width : 1200px) {
+    .Khatauli{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .Khatauli{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width : 1200px) {
+    .email{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .email{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width : 1200px) {
+    .Muzaffarnagar{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .Muzaffarnagar{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width : 1200px) {
+    .mail{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .mail{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width : 1200px) {
+    .mail1{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .mail1{
+        margin-left: 10px;
+    }
+}

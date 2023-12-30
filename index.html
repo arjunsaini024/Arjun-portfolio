@@ -181,14 +181,14 @@
     <h1 class="fs-1 fw-bold text-center">Contact Us</h1>
     <div class="row">
       <div class="col-md-6">
-        <form action="">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name" class="form-control" required>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" class="form-control mt-1" required>
-          <input type="number" class="form-control" id="number" placeholder="Number" required>
-          <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-          <textarea name="" id="" class="form-control" placeholder="Message" required></textarea>
+        <form action="https://formspree.io/f/xeqyqjwo" method="POST">
+          <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name" class="form-control" required>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" class="form-control mt-1" required>
+          <input type="number" name="number" class="form-control" id="number" placeholder="Number" required>
+          <input type="text" name="Subject" class="form-control" id="subject" placeholder="Subject" required>
+          <textarea name="message" id="" class="form-control" placeholder="Message" required></textarea>
           <div class="d-flex justify-content-center mt-1">
-            <a href="#" class="btn btn-3 bg-primary mt-2">Submit</a>
+            <button class="btn btn-3 bg-primary mt-2">Submit</button>
           </div>
         </form>
       </div>
